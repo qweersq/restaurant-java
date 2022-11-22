@@ -55,6 +55,9 @@ public class Main {
                                 && login.getPassword().equals(password1)) {
                             count++;
                             System.out.println("Login successfully!");
+                            //go to admin.java in admin folder
+                            admin.admin.main();
+
                         }
                     }
                     if (count == 0) {
@@ -78,10 +81,10 @@ public class Main {
             }
         } while (choice != 3);
     }
-    
-    
+
+
     public static void main(String[] args) {
-        
+
         int option;
         Scanner sc = new Scanner(System.in);
 
